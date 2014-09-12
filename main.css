@@ -1,23 +1,35 @@
+html {
+    height: 100%;
+    width: 100%;
+    background: url(aneesh.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 body {
     font-family: Helvetica,Arial,sans-serif;
-    background-color: #bbddee;
+    /*background-color: #bbddee;*/
 }
 
 #container {
     width: 700px;
     margin: 0 auto;
-    background-color: #3399cc;
+    background-color: rgba(0, 0, 0, 0.5); /*#3399cc;*/
     overflow: hidden;
     border-radius: 5px;
     box-shadow: 0 0 30px #ff0000;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 #left-panel {
+    color: #ffffff;
     width: 160px;
 }
 
 #right-panel {
+    color: #ffffff;
     width: 460px;
 }
 
@@ -32,7 +44,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: #45A28F;
 }
 
 a:hover {
